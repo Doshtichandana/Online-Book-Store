@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<style>
+   
+    span{
+        color:red;
+    }
+    .s1{
+        color:blue;
+        margin-right:10px;
+    }
+</style>
+<body bgcolor="lightblue" border="1px solid black">
+    <form>
+        <center><h1 style="color: blue;">Registration Form</h1></center>
+        <label for="fname">First Name(Minimum 6 characters)<span>*</span></label>
+        <input type="text" required><br><br>
+        <label for="lname">Last Name<span>*</span></label>
+        <input type="text" required><br><br>
+        <label for="email">EmailAddress<span>*</span></label>
+        <input type="email" required>
+        <p><span>(one e-mail id only):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span style="color:rgb(30, 146, 192);">e.g:smith@hotmail.com</span>
+        </p>
+        <label for="password">Password (Minimum 6 characters)<span>*</span></label>
+        <input type="password" id="password"><br>
+        <label for="address">Address<span>*</span></label>
+        <input type="text" id="address"><br><br>
+        <label for="mobileno">Mobile No<span>*</span></label>
+        <input type="text" id="mobileno"><br>
+        <p style="vertical-align: sub;">
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender"><label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>
